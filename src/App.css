@@ -97,6 +97,17 @@ margin-top: 20vh;
   justify-content: space-around;
 }
 
+#footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgb(25, 4, 29);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
 
 /* NEON */
 

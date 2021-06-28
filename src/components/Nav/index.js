@@ -28,9 +28,9 @@ function Nav() {
                     </Link>
                 </div>
                 <div>
-                    <Link to="/contact"  className="purpleSuit">   
+                    <Link to="/about"  className="purpleSuit">   
                         <h1>♢</h1>
-                        <h2>Contact</h2>
+                        <h2>About</h2>
                     </Link>
                 </div>
         </section>
