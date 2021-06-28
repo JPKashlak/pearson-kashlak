@@ -6,10 +6,10 @@
 
 
 body {
-font-size: 18px;
-font-family: "Vibur", sans-serif;
-background-color: black;
-
+  font-size: 18px;
+  font-family: "Vibur", sans-serif;
+  background-color: black;
+  margin-bottom:50px;
 }
 
 nav {
@@ -41,6 +41,7 @@ table {
 th {
   font-size: 28px;
   padding-bottom: 10px;
+  text-align: left;
 }
 
 td {
@@ -97,15 +98,20 @@ margin-top: 20vh;
   justify-content: space-around;
 }
 
+#main-content {
+  margin-bottom: 20px;
+}
+
 #footer {
-  margin-top: 1rem;
-  padding: 1rem;
   background-color: rgb(25, 4, 29);
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
   text-align: center;
+  position: fixed;
+  height: 50px;
+  
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
 }
 
 
