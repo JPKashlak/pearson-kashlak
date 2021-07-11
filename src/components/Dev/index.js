@@ -20,12 +20,12 @@ const Dev = () => {
   ]
   return (
     <div className ="neonBase">
-      <h1>Developer</h1>
+      <h3 className="greenSuit">Developer</h3>
       <table>
         <tr>
           <th>Application</th>
           <th>Live URL</th>
-          <th>GitHub Repository</th>
+          <th>Repository</th>
         </tr>
         {apps.map(app => (
           <tr>

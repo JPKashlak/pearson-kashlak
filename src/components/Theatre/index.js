@@ -3,12 +3,6 @@ import React from 'react';
 const Theatre = () => {
 
   const stageCredits = [
-    // {
-    //   title: "Gloria",
-    //   role: "Stage Manager",
-    //   company: "Street Corner Arts (2020)",
-    //   director: "Jeremy Cudd"
-    // },
     {
       title: "House",
       role: "Stage Manager",
@@ -152,12 +146,66 @@ const Theatre = () => {
       role: "Spotlight",
       company: "Bucks County Playhouse (2014)",
       director: "Gordon Greenberg"
+    },
+    {
+      title: "The Mystery of Edwin Drood",
+      role: "Spotlight",
+      company: "Music Mountain Theatre (2014)",
+      director: "Jordan Brennan"
+    },
+    {
+      title: "Fiddler on the Roof",
+      role: "Spotlight",
+      company: "Music Mountain Theatre (2014)",
+      director: "Louis Palena"
+    },
+    {
+      title: "Big",
+      role: "Spotlight",
+      company: "Music Mountain Theatre (2014)",
+      director: "Jordan Brennan"
+    },
+    {
+      title: "Thoroughly Modern Millie",
+      role: "Spotlight",
+      company: "Music Mountain Theatre (2014)",
+      director: "Louis Palena"
+    },
+    {
+      title: "Lil Abner",
+      role: "Spotlight",
+      company: "Music Mountain Theatre (2014)",
+      director: "Jordan Brennan"
+    },
+    {
+      title: "The 25th Annual Putnam County Spelling Bee",
+      role: "Spotlight",
+      company: "Music Mountain Theatre (2014)",
+      director: "Jordan Brennan"
+    },
+    {
+      title: "Seussical",
+      role: "Spotlight",
+      company: "Music Mountain Theatre (2014)",
+      director: "Louis Palena"
+    },
+    {
+      title: "The Secret Garden",
+      role: "Spotlight",
+      company: "Music Mountain Theatre (2014)",
+      director: "Jordan Brennan"
+    },
+    {
+      title: "West Side Story",
+      role: "Spotlight",
+      company: "Music Mountain Theatre (2014)",
+      director: "Louis Palena"
     }
   ] 
 
   return (
     <div className ="neonBase">
-      <h1>Theatre</h1>
+      <h3 className="greenSuit">Theatre</h3>
         <table>
           <tr>
             <th>Production</th>
